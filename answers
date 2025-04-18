@@ -1,0 +1,44 @@
+/* General body styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* ID selector */
+#main-title {
+  color: #2c3e50;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2.5rem;
+}
+
+/* Class selector */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Element selector */
+p {
+  margin-bottom: 1em;
+  font-size: 1.1rem;
+}
+
+/* Styling an image */
+img.feature-image {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 20px auto;
+  border: 5px solid #ccc;
+  border-radius: 10px;
+}
